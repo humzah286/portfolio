@@ -15,7 +15,7 @@ const About = (props) => {
                 <div className="flex flex-row flex-wrap justify-center lg:gap-[5rem]">
                     <div className="w-[20rem] lg:w-[30rem]">
                         <p className="text-white grow leading-loose mt-5 lg:mt-10 text-justify">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae explicabo sed vitae perferendis. Facere quasi tempore eius aliquid recusandae, dolorum perspiciatis laudantium officia! Optio, voluptatum, quia similique delectus iste repellat architecto, labore quidem natus eligendi consequuntur! Maxime ad quibusdam asperiores sequi recusandae officia! Rerum illum explicabo atque reiciendis fugiat rem consequuntur sint voluptatum, quibusdam, voluptate, quas quia. Quisquam, voluptatum. Quisquam, voluptatum.
+                        As a developer, I'm deeply enthusiastic about software development, machine learning, and the transformative potential of blockchain technology. One of the things that excites me most is the joy of continuous learning. When I'm not coding, you can find me indulging in my other passions. From playing video games to exploring the great outdoors, I believe in maintaining a balance between my technical pursuits and embracing the beauty of life beyond the screen. My vision for the future is to leverage my skills and expertise to contribute meaningfully to projects that make a positive impact on society.
                         </p>
                     </div>
                     <div className="static w-[20rem] h-[20rem] lg:w-[27rem] lg:h-[27rem] lg:relative lg:bottom-[3rem] ">
