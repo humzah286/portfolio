@@ -2,7 +2,7 @@
 const About = (props) => {
     return (
         <>
-            <div className="flex flex-col justify-start mt-10 lg:mx-16 ">
+            <div className="flex flex-col justify-start mt-10 lg:mx-16 " id="about">
                 <div className="flex justify-center lg:gap-[45rem]">
                     <div>
                         <span className="text-zinc-100 text-[30px] lg:text-[50px] font-bold">About </span>

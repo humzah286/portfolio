@@ -30,7 +30,7 @@ const Contact = (props) => {
 
     return (
         <>
-            <div className="ml-6 lg:mx-[16rem] mt-8 lg:mt-16 ">
+            <div className="ml-6 lg:mx-[16rem] mt-8 lg:mt-16 " id="contact">
                 <span className="text-teal-500 text-[30px] lg:text-[50px] font-bold">Contact </span>
             </div>
             {/* for Profile links.  */}
@@ -124,16 +124,4 @@ const LinkedInLogo = () => {
     return <>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px"><path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z" /><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z" /></svg>
     </>
-}
-
-const ErrorMessage = (props) => {
-    return <div class="bg-teal-100 border-t-4 border-teal-500 rounded-b text-teal-900 px-4 py-3 shadow-md" role="alert">
-    <div class="flex">
-      <div class="py-1"><svg class="fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"/></svg></div>
-      <div>
-        <p class="font-bold">{props.title}</p>
-        <p class="text-sm">{props.description}</p>
-      </div>
-    </div>
-  </div>
 }

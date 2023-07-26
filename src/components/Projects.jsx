@@ -5,7 +5,7 @@ const Projects = (props) => {
 
     return (
         <>
-        <div className="ml-6 lg:mx-[16rem] mt-8 lg:mt-16 ">
+        <div className="ml-6 lg:mx-[16rem] mt-8 lg:mt-16 " id="projects">
             <span className="text-zinc-100 text-[30px] lg:text-[50px] font-bold">Projects </span>
         </div>
             {

@@ -1,6 +1,8 @@
 
 const Home = (props) => {
 
+    console.log("Profile picture path : ", props.profilePic)
+
     return <>
         <div className="lg:pb-36">
             <div className="flex flex-wrap justify-center lg:gap-[10rem] mt-10 lg:mx-16 lg:mt-[8rem]">
