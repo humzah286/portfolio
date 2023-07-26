@@ -30,7 +30,7 @@ const Project = (props) => {
     return (
         <>
             <div className="flex flex-wrap m-4 lg:mx-[16rem] border border-white rounded-lg p-4">
-                <div className="w-[20rem] lg:w-[28rem] flex justify-center items-center">
+                <div className="w-[19rem] lg:w-[28rem] flex justify-center items-center">
                     <img className="max-h-[400px]" src={props.image} alt="" />
                 </div>
                 <div className="w-[20rem] lg:w-[28rem] mt-8 lg:mt-0 lg:ml-8">
