@@ -27,7 +27,7 @@ function App() {
         <Navbar />
         <Home background={background} profilePic={profilePic} />
         <About wallpaper={wallpaper} />
-        <Projects projects={projects}/>
+        <Projects projects={projects} paths={{"Rent4Wheels": path1, "DSA Project": path2, "Sudoku": path3}}/>
         <Contact messages={messages}/>
         <Footer />
     </>

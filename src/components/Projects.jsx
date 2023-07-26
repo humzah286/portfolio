@@ -14,7 +14,7 @@ const Projects = (props) => {
                         key={project.title}
                         title={project.title}
                         description={project.description}
-                        image={project.image}
+                        image={props.paths[project.title]}
                         github_link={project.github_link}
                     />
                 ))
