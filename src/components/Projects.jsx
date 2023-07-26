@@ -1,7 +1,12 @@
 
 
 
+import paths from "../assets/profile.jpeg"
+
+
 const Projects = (props) => {
+
+    let path = paths.replace("profile.jpeg", "")
 
     return (
         <>
@@ -10,11 +15,12 @@ const Projects = (props) => {
         </div>
             {
                 props.projects.map(project => (
+
                     <Project
                         key={project.title}
                         title={project.title}
                         description={project.description}
-                        image={project.image}
+                        image={path + project.image}
                         github_link={project.github_link}
                     />
                 ))
