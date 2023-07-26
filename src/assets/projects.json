@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Rent4Wheels", 
+        "image": "/src/assets/Rent4Wheels.png", 
+        "github_link": "https://github.com/humzah286/Rent4Wheels", 
+        "description": "A car rental application made in Laravel/PHP using CSS framework bootstrap. The purpose of this project was to provide facility for users to rent a car whenever they want."
+    }, 
+    {
+        "title": "DSA Project", 
+        "image": "/src/assets/DSA_project.png", 
+        "github_link": "https://github.com/humzah286/DSA-project", 
+        "description": "This Project was made to test our Data Structures and Alogorithms logic. We used a data set of FIFA 19, and organized it using Arrays, Linked List, AVL trees and graphs. C++ and Qt was used for this project."
+    }, 
+    {
+        "title": "Sudoku", 
+        "image": "/src/assets/sudoku.png", 
+        "github_link": "https://github.com/humzah286/Sudoku-in-python", 
+        "description": "I created a Sudoku game in my first semester, where user has to complete the 9x9 grid following some rules. This game was created using python and PyQt6."
+    }
+]
