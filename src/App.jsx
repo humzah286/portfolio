@@ -13,6 +13,10 @@ import Projects from './components/Projects'
 import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
 
+import path1 from './assets/Rent4wheels.png'
+import path2 from './assets/DSA_project.png'
+import path3 from './assets/sudoku.png'
+
 
 function App() {
 

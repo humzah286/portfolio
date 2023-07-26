@@ -1,12 +1,6 @@
 
 
-
-import paths from "../assets/profile.jpeg"
-
-
 const Projects = (props) => {
-
-    let path = paths.replace("profile.jpeg", "")
 
     return (
         <>
@@ -20,7 +14,7 @@ const Projects = (props) => {
                         key={project.title}
                         title={project.title}
                         description={project.description}
-                        image={path + project.image}
+                        image={project.image}
                         github_link={project.github_link}
                     />
                 ))
